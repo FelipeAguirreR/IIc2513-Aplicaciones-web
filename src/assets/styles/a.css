@@ -1,0 +1,155 @@
+body {
+    background-color: black; 
+  }
+
+#main{
+    width:auto;
+}
+#titulo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#imagen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#imagen-logo {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#imagen {
+    max-width: 70%; 
+    height: auto; 
+    border: 4px solid gray; 
+    width: 100%;
+
+}
+
+.nav_container {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+nav {
+background-color: #333;
+display: flex; 
+justify-content: center;
+align-items: center; 
+height: 50px; 
+}
+
+nav a {
+color: #fff; 
+text-decoration: none; 
+margin: 0 10px; 
+}
+nav ul {
+display: flex;
+list-style: none; 
+padding: 0;
+align-items: center;
+}
+
+nav li {
+margin-right: 20px; 
+font-family: "Arial", sans-serif; }
+
+nav a img {
+height: 40px;
+max-width: 100%;
+margin-right: 100px;
+}
+.contenedor-ficha {
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr; 
+    margin-top: 2%;
+    border-color: #fff;
+    border-style: solid;
+    align-items: center;
+}
+.contenedor-ficha2 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr; 
+    margin-top: 2%;
+    border-color: #fff;
+    border-style: solid;
+    align-items: center;
+}
+
+img.img-equipo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 200px;
+    height: auto;
+    z-index: 400;
+    margin-left: 10%;
+}
+
+.ficha-equipo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    color: white;
+    padding: .5rem;
+    z-index: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ficha-equipo p {
+    font-size: .8rem;
+    font-size: 18px;
+}
+.seccion-fondo {
+    background-image: url("../imgs/cancha.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.seccion-fondo .contenido {
+  max-width: 30%;
+  text-align: center;
+}
+
+.seccion-fondo .titulo {
+    color: white; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    font-size: 48px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 2px black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion-fondo .imagen {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+footer p{
+    color: #fff;
+}
+  
