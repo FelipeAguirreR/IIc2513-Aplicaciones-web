@@ -7,7 +7,7 @@ Este sitio web tiene como objetivo mostrar la información de los equipos de la 
 El sitio web cuenta con tres páginas principales:
 
 - `index.html`: La página de inicio incluye un menú de navegación que permite al usuario acceder a las otras dos secciones. También se muestra una imagen de fondo y una breve descripción del sitio.
-- `equipos.html`: En la sección de equipos se presenta una lista con los distintos equipos que participan en la liga chilena, cada uno con una imagen y el año de su fundación. Al hacer clic en uno de ellos se redirige a la sección de información.
+- `equipos.html`: En la sección de equipos se presenta una lista con los distintos equipos que participan en la liga chilena, cada uno con una imagen , el año de su fundación, sus titulos nacionales e internacionales y la ultima vez que gano un campeonato.
 - `info.html`: en esta pagina hay informacion adicional sobre la pagina.
 
 ## Tecnologías utilizadas
